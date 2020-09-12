@@ -22,6 +22,8 @@ void ShowErrorMessage(string message) {
 }
 
 int main() {
+	cout << "[ TCP Echo Server 0.2v ]\n";
+
 	WSADATA				wsaData;
 	SOCKET					serverSocket, clientSocket;					// Server has a server socket and a client socket.
 	SOCKADDR_IN		serverAddress, clientAddress;
